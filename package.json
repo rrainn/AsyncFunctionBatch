@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "This package lets you run a batch of async tasks in parallel, while limiting the number of concurrent tasks being run.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrainn/batch-async.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrainn/batch-async/issues"
+  },
   "scripts": {
     "prepare": "npm run build:clean && npm run build",
     "build": "tsc",
@@ -15,5 +23,8 @@
     "@types/node": "^16.11.10",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.2"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
