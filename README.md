@@ -1,17 +1,17 @@
-# async-batch
+# AsyncFunctionBatch
 
 This package lets you run a batch of async tasks in parallel, while limiting the number of concurrent tasks being run.
 
 ## Installation
 
 ```bash
-npm i --save async-batch
+npm i --save asyncfunctionbatch
 ```
 
 ## Usage
 
 ```js
-const {Job} = require("async-batch");
+const {Job} = require("asyncfunctionbatch");
 
 const array = ["hello", "world", "!"];
 const concurrency = 10; // max number of tasks to run in parallel
